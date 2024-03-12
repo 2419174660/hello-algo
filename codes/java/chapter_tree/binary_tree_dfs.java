@@ -13,6 +13,8 @@ public class binary_tree_dfs {
     // 初始化列表，用于存储遍历序列
     static ArrayList<Integer> list = new ArrayList<>();
 
+    // 递归方式
+
     /* 前序遍历 */
     static void preOrder(TreeNode root) {
         if (root == null)
